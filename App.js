@@ -1,3 +1,7 @@
+import React from "react";
+import  ReactDOM  from "react-dom/client";
+
+
 const header=React.createElement("h1",{
     id:"heading",xyz:"abc"
 },"Hello World from ReactJs");
@@ -16,7 +20,7 @@ const header=React.createElement("h1",{
 </div> */
 
 const parent=React.createElement("div",{id:"parent"},[React.createElement("div",{id:"child"},
-[React.createElement("h1",{},"I'm h1 tag"),React.createElement("h1",{},"I'm h2 tag")]),React.createElement("div",{id:"child"},
+[React.createElement("h1",{},"This is Namaste React 🚀"),React.createElement("h1",{},"I'm h2 tag")]),React.createElement("div",{id:"child"},
 [React.createElement("h1",{},"I'm h1 tag"),React.createElement("h1",{},"I'm h2 tag")])]
 )
 
